@@ -1,0 +1,22 @@
+{
+  "name": "maps",
+  "version": "1.0.0",
+  "description": "",
+  "source": "index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build",
+    "prettier-format": "prettier --config .prettierrc 'src/**/*.ts' --write"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/google.maps": "^3.53.1",
+    "parcel": "^2.8.3",
+    "prettier": "^2.8.8"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^8.0.1"
+  }
+}
